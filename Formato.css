@@ -15,13 +15,11 @@ font-family: courier;
 text-align: center;
 
 }
-
-
 h3{
-  text-align: center;
-  font-size: 40px;
-  margin-right: 100px;
+  background-color: #152143
 }
+
+
 
 h4{
   text-align: center;
@@ -30,11 +28,6 @@ h4{
 
 }
 
-a{
-  color: black;
-  font-family: courier;
-  font-size: 25px;
-}
 
 p {
     font-family: georgia;
@@ -42,7 +35,18 @@ p {
     font-style: oblique;
 }
 
-
+#color1{
+  background-color: #6face3
+}
+#color2{
+  background-color: #00818c
+}
+#color3{
+  background-color: #6c879a
+}
+#color4{
+  background-color: 	#006062
+}
 #encabezado {
   width: 1500px;
   height: 100px;
@@ -56,7 +60,7 @@ p {
 }
 
 #lateral{
-  width: 200px;
+  width: 340px;
   height: 650px;
   background-color: #2049C1;
   float: right;
@@ -64,17 +68,18 @@ p {
 }
 
 #lateral1{
-  width: 200px;
+  width: 340px;
   height: 650px;
   background-color: #2049C1;
   float: left;
 
 }
-
-.redesSociales{
-  margin-top: 30px;
+#encabezado {
+  background-color: #2049C1;
 }
-
+#uno,#dos,#tres{
+  font-size: 15px;
+}
 img{
   padding: 10px;
   display: block;
@@ -98,24 +103,4 @@ img{
 
 #cf img.top:hover {
   opacity:0;
-}
-
-.navbar {
-    overflow: hidden;
-    width: 1500px;
-    background: #152143;
-}
-
-.navbar a {
-    display: block;
-    float: right;
-    padding: 25px 15px;
-    font-size: 18px;
-    font-family: courier;
-}
-
-.navbar a :hover {
-    display: flex;
-    background: #152143;
-    color: white;
 }
